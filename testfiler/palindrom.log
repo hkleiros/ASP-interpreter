@@ -1,0 +1,20 @@
+Trace line 5: def is_a_palindrome
+Trace line 12: Called function input with parameters ['A word: ']
+Trace line 12: query = racaecar
+Trace line 13: Called function is_a_palindrome with parameters ['racaecar']
+Trace line 6: i1 = 0
+Trace line 6: Called function len with parameters ['racaecar']
+Trace line 6: i2 = 7
+Trace line 7: while True: ...
+Trace line 9: i1 = 1
+Trace line 9: i2 = 6
+Trace line 7: while True: ...
+Trace line 9: i1 = 2
+Trace line 9: i2 = 5
+Trace line 7: while True: ...
+Trace line 9: i1 = 3
+Trace line 9: i2 = 4
+Trace line 7: while True: ...
+Trace line 8: if True #alt #1: ...
+Trace line 8: return False
+Trace line 13: Called function print with parameters ['"racaecar":', False]

@@ -1,0 +1,124 @@
+<program>
+   1: # Dette programmet starter med en del rar men lovlig indentering
+   2: # før det til sist viser en ulovlig indentering.
+   3: 
+   4: if True:
+  <stmt>
+    <compound stmt>
+      <if stmt>
+        <expr>
+          <and test>
+            <not test>
+              <comparision>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <boolean literal>
+                        </boolean literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+        <suite>
+   5:  if False:  # Indentering (kort men helt lovlig)
+          <stmt>
+            <compound stmt>
+              <if stmt>
+                <expr>
+                  <and test>
+                    <not test>
+                      <comparision>
+                        <term>
+                          <factor>
+                            <primary>
+                              <atom>
+                                <boolean literal>
+                                </boolean literal>
+                              </atom>
+                            </primary>
+                          </factor>
+                        </term>
+                      </comparison>
+                    </not test>
+                  </and test>
+                </expr>
+                <suite>
+   6:                               if 1: # Kjempeindentering (uleselig men OK)
+                  <stmt>
+                    <compound stmt>
+                      <if stmt>
+                        <expr>
+                          <and test>
+                            <not test>
+                              <comparision>
+                                <term>
+                                  <factor>
+                                    <primary>
+                                      <atom>
+                                        <integer literal>
+                                        </integer literal>
+                                      </atom>
+                                    </primary>
+                                  </factor>
+                                </term>
+                              </comparison>
+                            </not test>
+                          </and test>
+                        </expr>
+                        <suite>
+   7:                                   print("Ja")
+                          <stmt>
+                            <small stmt list>
+                              <small stmt>
+                                <expr stmt>
+                                  <expr>
+                                    <and test>
+                                      <not test>
+                                        <comparision>
+                                          <term>
+                                            <factor>
+                                              <primary>
+                                                <atom>
+                                                  <name>
+                                                  </name>
+                                                </atom>
+                                                <primary suffix>
+                                                  <arguments>
+                                                    <expr>
+                                                      <and test>
+                                                        <not test>
+                                                          <comparision>
+                                                            <term>
+                                                              <factor>
+                                                                <primary>
+                                                                  <atom>
+                                                                    <string literal>
+                                                                    </string literal>
+                                                                  </atom>
+                                                                </primary>
+                                                              </factor>
+                                                            </term>
+                                                          </comparison>
+                                                        </not test>
+                                                      </and test>
+                                                    </expr>
+                                                  </arguments>
+                                                </primary suffix>
+                                              </primary>
+                                            </factor>
+                                          </term>
+                                        </comparison>
+                                      </not test>
+                                    </and test>
+                                  </expr>
+                                </expr stmt>
+                              </small stmt>
+                            </small stmt list>
+                          </stmt>
+   8:     a = 4   # Gal indentering (ikke brukt før)
+Asp scanner error on line 8: Indentation error !

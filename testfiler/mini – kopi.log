@@ -1,0 +1,2 @@
+Trace line 1: return 2
+Asp runtime error on line 1: Return statement outside function!

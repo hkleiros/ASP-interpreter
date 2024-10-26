@@ -1,0 +1,5 @@
+Trace line 1: liste = [1, 1, 2, 3]
+Trace line 2: tabell = {'Ingen': [], 'Fib': [1, 1, 2, 3]}
+Trace line 3: kombi = [0, {'Ingen': [], 'Fib': [1, 1, 2, 3]}]
+Trace line 5: x = 2
+Trace line 5: Called function print with parameters ['x', '==>', 2]

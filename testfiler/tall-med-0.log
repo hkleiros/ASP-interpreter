@@ -1,0 +1,61 @@
+<program>
+   1: # I Asp får tall ikke lov å starte med sifferet 0, men
+   2: # selve tallet 0 er selvfølgelig et unntak.
+   3: 
+   4: a = 0   # Dette er helt OK.
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <assignment>
+          <name>
+          </name>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <primary>
+                        <atom>
+                          <integer literal>
+                          </integer literal>
+                        </atom>
+                      </primary>
+                    </factor>
+                  </term>
+                </comparison>
+              </not test>
+            </and test>
+          </expr>
+        </assignment>
+      </small stmt>
+    </small stmt list>
+  </stmt>
+   5: a = 04  # Men dette to tall: 0 og 4!
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <assignment>
+          <name>
+          </name>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <primary>
+                        <atom>
+                          <integer literal>
+                          </integer literal>
+                        </atom>
+                      </primary>
+                    </factor>
+                  </term>
+                </comparison>
+              </not test>
+            </and test>
+          </expr>
+        </assignment>
+      </small stmt>
+Asp parser error on line 5: Expected NEWLINE or ; but found integer literal!
